@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="73" id="KGk-i7-Jjw" customClass="ExchangeRateTableViewCell" customModule="exchange_rate_demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="73"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="5p6-Co-LPr">
+                        <rect key="frame" x="16" y="21.666666666666671" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="W2x-dB-fna"/>
+                            <constraint firstAttribute="height" constant="30" id="gNp-L9-kGj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AUST.DOLLAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdL-Wm-Oqo">
+                        <rect key="frame" x="61.999999999999993" y="15.999999999999998" width="106.33333333333331" height="19.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="meo-Ho-KLI">
+                        <rect key="frame" x="70" y="43.333333333333336" width="223" height="19.333333333333336"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AUS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCT-f1-mYH">
+                                <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="19.333333333333332"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AUST." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Iw-oe-AX0">
+                                <rect key="frame" x="75.666666666666657" y="0.0" width="71.666666666666657" height="19.333333333333332"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bán" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AH-ar-eRq">
+                                <rect key="frame" x="151.33333333333334" y="0.0" width="71.666666666666657" height="19.333333333333332"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DR4-fN-koK">
+                        <rect key="frame" x="309" y="21.666666666666671" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="dFF-YI-MEq"/>
+                            <constraint firstAttribute="width" constant="30" id="g7s-Ro-1Ef"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="icon_arrow"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="meo-Ho-KLI" firstAttribute="leading" secondItem="5p6-Co-LPr" secondAttribute="trailing" constant="24" id="CAM-DH-t6a"/>
+                    <constraint firstItem="5p6-Co-LPr" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="CSr-Gr-rzP"/>
+                    <constraint firstItem="DR4-fN-koK" firstAttribute="leading" secondItem="meo-Ho-KLI" secondAttribute="trailing" constant="16" id="KBZ-lY-Ao0"/>
+                    <constraint firstItem="PdL-Wm-Oqo" firstAttribute="leading" secondItem="5p6-Co-LPr" secondAttribute="trailing" constant="16" id="aXf-Aq-YcD"/>
+                    <constraint firstItem="meo-Ho-KLI" firstAttribute="top" secondItem="PdL-Wm-Oqo" secondAttribute="bottom" constant="8" id="d83-VG-7RV"/>
+                    <constraint firstItem="DR4-fN-koK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="eWc-sO-0g0"/>
+                    <constraint firstItem="5p6-Co-LPr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="lTS-EV-QYg"/>
+                    <constraint firstAttribute="trailing" secondItem="DR4-fN-koK" secondAttribute="trailing" constant="16" id="xbb-WP-c5h"/>
+                    <constraint firstItem="PdL-Wm-Oqo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="yd7-k7-8S9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.95686274509803915" green="0.96078431372549022" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="buyLabel" destination="3Iw-oe-AX0" id="9sm-RW-6O0"/>
+                <outlet property="currencyCodeLabel" destination="oCT-f1-mYH" id="mHu-xA-uqz"/>
+                <outlet property="currencyNameLabel" destination="PdL-Wm-Oqo" id="dUD-9o-bIl"/>
+                <outlet property="flagImageView" destination="5p6-Co-LPr" id="V3r-o1-glg"/>
+                <outlet property="sellLabel" destination="7AH-ar-eRq" id="d72-0M-RqN"/>
+            </connections>
+            <point key="canvasLocation" x="322.90076335877859" y="6.6901408450704229"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avatar" width="540" height="539.5"/>
+        <image name="icon_arrow" width="15" height="15"/>
+    </resources>
+</document>
