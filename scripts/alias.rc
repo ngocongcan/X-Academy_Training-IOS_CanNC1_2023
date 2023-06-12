@@ -1,0 +1,3 @@
+export X_Academy_Training_iOS_CanNC1_2023_Mock_Project_ROOT_DIR=`pwd`
+alias mockprj="cd $X_Academy_Training_iOS_CanNC1_2023_Mock_Project_ROOT_DIR;"
+alias xomockprj="cd $X_Academy_Training_iOS_CanNC1_2023_Mock_Project_ROOT_DIR; open ExchangeRate/ExchangeRate.xcodeproj"
