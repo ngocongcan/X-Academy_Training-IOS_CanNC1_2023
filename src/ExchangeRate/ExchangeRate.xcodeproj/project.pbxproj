@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0579A32A3D9FFE00C7E47D /* ExchangeRatesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0579A12A3D9FFE00C7E47D /* ExchangeRatesService.swift */; };
+		3E0579AD2A3DA00C00C7E47D /* GoldPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0579A62A3DA00C00C7E47D /* GoldPriceService.swift */; };
+		3E0579AF2A3DA00C00C7E47D /* GoldExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0579A92A3DA00C00C7E47D /* GoldExchangeRate.swift */; };
+		3E0579B32A3DA1C000C7E47D /* XATTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0579B22A3DA1C000C7E47D /* XATTabBarController.swift */; };
+		3E0579B52A3DA4ED00C7E47D /* XMLDataServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0579B42A3DA4ED00C7E47D /* XMLDataServiceType.swift */; };
 		7087D2932A2D937400AC1EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2922A2D937400AC1EE6 /* AppDelegate.swift */; };
 		7087D2952A2D937400AC1EE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2942A2D937400AC1EE6 /* SceneDelegate.swift */; };
 		7087D2972A2D937400AC1EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2962A2D937400AC1EE6 /* ViewController.swift */; };
@@ -22,24 +27,22 @@
 		7087D2CD2A2D942C00AC1EE6 /* ExchangeRateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D2CA2A2D942C00AC1EE6 /* ExchangeRateTableViewCell.xib */; };
 		7087D2D12A2D944000AC1EE6 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2D02A2D944000AC1EE6 /* ExchangeRate.swift */; };
 		7087D2D32A2D94DC00AC1EE6 /* ExchangeRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2D22A2D94DC00AC1EE6 /* ExchangeRateViewModel.swift */; };
-		7087D2D92A302CC000AC1EE6 /* ExchangeRatesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2D82A302CC000AC1EE6 /* ExchangeRatesService.swift */; };
 		7087D2DD2A302E3A00AC1EE6 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2DC2A302E3A00AC1EE6 /* ApiManager.swift */; };
-		7087D2E12A3047C200AC1EE6 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2DF2A3047C200AC1EE6 /* MarketViewController.swift */; };
-		7087D2E22A3047C200AC1EE6 /* MarketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D2E02A3047C200AC1EE6 /* MarketViewController.xib */; };
+		7087D2E12A3047C200AC1EE6 /* GoldPriceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2DF2A3047C200AC1EE6 /* GoldPriceController.swift */; };
+		7087D2E22A3047C200AC1EE6 /* GoldPriceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D2E02A3047C200AC1EE6 /* GoldPriceController.xib */; };
 		7087D2E62A30482E00AC1EE6 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2E42A30482E00AC1EE6 /* ChartViewController.swift */; };
 		7087D2E72A30482E00AC1EE6 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D2E52A30482E00AC1EE6 /* ChartViewController.xib */; };
 		7087D2EB2A3048E700AC1EE6 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2E92A3048E700AC1EE6 /* AccountViewController.swift */; };
 		7087D2EC2A3048E700AC1EE6 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D2EA2A3048E700AC1EE6 /* AccountViewController.xib */; };
-		7087D2EF2A3049DA00AC1EE6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2EE2A3049DA00AC1EE6 /* Color.swift */; };
+		7087D2EF2A3049DA00AC1EE6 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2EE2A3049DA00AC1EE6 /* ThemeColor.swift */; };
 		7087D2F32A304A5600AC1EE6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2F22A304A5600AC1EE6 /* UIColor.swift */; };
-		7087D2F72A3055A700AC1EE6 /* CustomNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D2F52A3055A700AC1EE6 /* CustomNavigationView.xib */; };
-		7087D2FE2A30573600AC1EE6 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2FD2A30573600AC1EE6 /* CustomNavigationView.swift */; };
-		7087D3002A307D1800AC1EE6 /* GoldExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2FF2A307D1800AC1EE6 /* GoldExchangeRate.swift */; };
-		7087D3022A30818600AC1EE6 /* MarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D3012A30818600AC1EE6 /* MarketViewModel.swift */; };
-		7087D3062A315D2B00AC1EE6 /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D3042A315D2B00AC1EE6 /* MarketTableViewCell.swift */; };
-		7087D3072A315D2B00AC1EE6 /* MarketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D3052A315D2B00AC1EE6 /* MarketTableViewCell.xib */; };
-		7087D30B2A31741000AC1EE6 /* MarketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D3092A31741000AC1EE6 /* MarketDetailViewController.swift */; };
-		7087D30C2A31741000AC1EE6 /* MarketDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D30A2A31741000AC1EE6 /* MarketDetailViewController.xib */; };
+		7087D2F72A3055A700AC1EE6 /* XATNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D2F52A3055A700AC1EE6 /* XATNavigationView.xib */; };
+		7087D2FE2A30573600AC1EE6 /* XATNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D2FD2A30573600AC1EE6 /* XATNavigationView.swift */; };
+		7087D3022A30818600AC1EE6 /* GoldPriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D3012A30818600AC1EE6 /* GoldPriceViewModel.swift */; };
+		7087D3062A315D2B00AC1EE6 /* GoldPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D3042A315D2B00AC1EE6 /* GoldPriceTableViewCell.swift */; };
+		7087D3072A315D2B00AC1EE6 /* GoldPriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D3052A315D2B00AC1EE6 /* GoldPriceTableViewCell.xib */; };
+		7087D30B2A31741000AC1EE6 /* GoldPriceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7087D3092A31741000AC1EE6 /* GoldPriceDetailViewController.swift */; };
+		7087D30C2A31741000AC1EE6 /* GoldPriceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7087D30A2A31741000AC1EE6 /* GoldPriceDetailViewController.xib */; };
 		708DE2052A32DBB5009C6D8C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708DE2042A32DBB5009C6D8C /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E0579A12A3D9FFE00C7E47D /* ExchangeRatesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeRatesService.swift; sourceTree = "<group>"; };
+		3E0579A62A3DA00C00C7E47D /* GoldPriceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldPriceService.swift; sourceTree = "<group>"; };
+		3E0579A92A3DA00C00C7E47D /* GoldExchangeRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldExchangeRate.swift; sourceTree = "<group>"; };
+		3E0579B22A3DA1C000C7E47D /* XATTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XATTabBarController.swift; sourceTree = "<group>"; };
+		3E0579B42A3DA4ED00C7E47D /* XMLDataServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDataServiceType.swift; sourceTree = "<group>"; };
 		7087D28F2A2D937400AC1EE6 /* ExchangeRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7087D2922A2D937400AC1EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7087D2942A2D937400AC1EE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,24 +88,22 @@
 		7087D2CA2A2D942C00AC1EE6 /* ExchangeRateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExchangeRateTableViewCell.xib; sourceTree = "<group>"; };
 		7087D2D02A2D944000AC1EE6 /* ExchangeRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 		7087D2D22A2D94DC00AC1EE6 /* ExchangeRateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeRateViewModel.swift; sourceTree = "<group>"; };
-		7087D2D82A302CC000AC1EE6 /* ExchangeRatesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesService.swift; sourceTree = "<group>"; };
 		7087D2DC2A302E3A00AC1EE6 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		7087D2DF2A3047C200AC1EE6 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
-		7087D2E02A3047C200AC1EE6 /* MarketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketViewController.xib; sourceTree = "<group>"; };
+		7087D2DF2A3047C200AC1EE6 /* GoldPriceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceController.swift; sourceTree = "<group>"; };
+		7087D2E02A3047C200AC1EE6 /* GoldPriceController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoldPriceController.xib; sourceTree = "<group>"; };
 		7087D2E42A30482E00AC1EE6 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		7087D2E52A30482E00AC1EE6 /* ChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
 		7087D2E92A3048E700AC1EE6 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		7087D2EA2A3048E700AC1EE6 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
-		7087D2EE2A3049DA00AC1EE6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7087D2EE2A3049DA00AC1EE6 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		7087D2F22A304A5600AC1EE6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		7087D2F52A3055A700AC1EE6 /* CustomNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationView.xib; sourceTree = "<group>"; };
-		7087D2FD2A30573600AC1EE6 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
-		7087D2FF2A307D1800AC1EE6 /* GoldExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldExchangeRate.swift; sourceTree = "<group>"; };
-		7087D3012A30818600AC1EE6 /* MarketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewModel.swift; sourceTree = "<group>"; };
-		7087D3042A315D2B00AC1EE6 /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
-		7087D3052A315D2B00AC1EE6 /* MarketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketTableViewCell.xib; sourceTree = "<group>"; };
-		7087D3092A31741000AC1EE6 /* MarketDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailViewController.swift; sourceTree = "<group>"; };
-		7087D30A2A31741000AC1EE6 /* MarketDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketDetailViewController.xib; sourceTree = "<group>"; };
+		7087D2F52A3055A700AC1EE6 /* XATNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XATNavigationView.xib; sourceTree = "<group>"; };
+		7087D2FD2A30573600AC1EE6 /* XATNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XATNavigationView.swift; sourceTree = "<group>"; };
+		7087D3012A30818600AC1EE6 /* GoldPriceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceViewModel.swift; sourceTree = "<group>"; };
+		7087D3042A315D2B00AC1EE6 /* GoldPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceTableViewCell.swift; sourceTree = "<group>"; };
+		7087D3052A315D2B00AC1EE6 /* GoldPriceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoldPriceTableViewCell.xib; sourceTree = "<group>"; };
+		7087D3092A31741000AC1EE6 /* GoldPriceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceDetailViewController.swift; sourceTree = "<group>"; };
+		7087D30A2A31741000AC1EE6 /* GoldPriceDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoldPriceDetailViewController.xib; sourceTree = "<group>"; };
 		708DE2042A32DBB5009C6D8C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +132,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E0579A02A3D9FFE00C7E47D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3E0579A12A3D9FFE00C7E47D /* ExchangeRatesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3E0579A52A3DA00C00C7E47D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3E0579A62A3DA00C00C7E47D /* GoldPriceService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3E0579A82A3DA00C00C7E47D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E0579A92A3DA00C00C7E47D /* GoldExchangeRate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E0579B12A3DA0F000C7E47D /* TabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E0579B22A3DA1C000C7E47D /* XATTabBarController.swift */,
+				7087D2C72A2D941F00AC1EE6 /* ExchangeRateTab */,
+				7087D2DE2A3047A200AC1EE6 /* GoldPricePageTab */,
+				7087D2E32A30480D00AC1EE6 /* ChartPageTab */,
+				7087D2E82A3048C500AC1EE6 /* AccountTab */,
+				7087D2F42A3053D600AC1EE6 /* XATNavigationView */,
+			);
+			path = TabbarViewController;
+			sourceTree = "<group>";
+		};
 		7087D2862A2D937400AC1EE6 = {
 			isa = PBXGroup;
 			children = (
@@ -150,11 +193,11 @@
 		7087D2912A2D937400AC1EE6 /* ExchangeRate */ = {
 			isa = PBXGroup;
 			children = (
-				7087D2ED2A3049C200AC1EE6 /* Utils */,
 				7087D2A02A2D937600AC1EE6 /* Info.plist */,
-				7087D2D42A2D96A400AC1EE6 /* Launch */,
+				7087D2ED2A3049C200AC1EE6 /* Common */,
+				7087D2D42A2D96A400AC1EE6 /* AppLaunch */,
 				7087D2C22A2D937F00AC1EE6 /* BaseViewController */,
-				7087D2962A2D937400AC1EE6 /* ViewController.swift */,
+				3E0579B12A3DA0F000C7E47D /* TabbarViewController */,
 			);
 			path = ExchangeRate;
 			sourceTree = "<group>";
@@ -179,26 +222,22 @@
 		7087D2C22A2D937F00AC1EE6 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7087D2D72A302C8700AC1EE6 /* Service */,
-				7087D2CF2A2D944000AC1EE6 /* Model */,
-				7087D2C72A2D941F00AC1EE6 /* ExchangeRate */,
-				7087D2DE2A3047A200AC1EE6 /* GoldPrice */,
-				7087D2E32A30480D00AC1EE6 /* Chart */,
-				7087D2E82A3048C500AC1EE6 /* Account */,
-				7087D2F42A3053D600AC1EE6 /* CustomNavigation */,
+				7087D2962A2D937400AC1EE6 /* ViewController.swift */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
-		7087D2C72A2D941F00AC1EE6 /* ExchangeRate */ = {
+		7087D2C72A2D941F00AC1EE6 /* ExchangeRateTab */ = {
 			isa = PBXGroup;
 			children = (
+				3E0579A02A3D9FFE00C7E47D /* Service */,
+				7087D2CF2A2D944000AC1EE6 /* Model */,
 				7087D2C82A2D942C00AC1EE6 /* Cell */,
 				7087D2C32A2D93A000AC1EE6 /* ExchangeRateViewController.swift */,
 				7087D2C42A2D93A000AC1EE6 /* ExchangeRateViewController.xib */,
 				7087D2D22A2D94DC00AC1EE6 /* ExchangeRateViewModel.swift */,
 			);
-			path = ExchangeRate;
+			path = ExchangeRateTab;
 			sourceTree = "<group>";
 		};
 		7087D2C82A2D942C00AC1EE6 /* Cell */ = {
@@ -213,14 +252,12 @@
 		7087D2CF2A2D944000AC1EE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7087D2DA2A302DE100AC1EE6 /* API */,
 				7087D2D02A2D944000AC1EE6 /* ExchangeRate.swift */,
-				7087D2FF2A307D1800AC1EE6 /* GoldExchangeRate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		7087D2D42A2D96A400AC1EE6 /* Launch */ = {
+		7087D2D42A2D96A400AC1EE6 /* AppLaunch */ = {
 			isa = PBXGroup;
 			children = (
 				7087D2922A2D937400AC1EE6 /* AppDelegate.swift */,
@@ -228,7 +265,7 @@
 				7087D29D2A2D937600AC1EE6 /* LaunchScreen.storyboard */,
 				7087D2982A2D937400AC1EE6 /* Main.storyboard */,
 			);
-			path = Launch;
+			path = AppLaunch;
 			sourceTree = "<group>";
 		};
 		7087D2D62A2EE5E800AC1EE6 /* Resources */ = {
@@ -242,64 +279,52 @@
 		7087D2D72A302C8700AC1EE6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				7087D2D82A302CC000AC1EE6 /* ExchangeRatesService.swift */,
+				7087D2DC2A302E3A00AC1EE6 /* ApiManager.swift */,
+				3E0579B42A3DA4ED00C7E47D /* XMLDataServiceType.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
 		};
-		7087D2DA2A302DE100AC1EE6 /* API */ = {
+		7087D2DE2A3047A200AC1EE6 /* GoldPricePageTab */ = {
 			isa = PBXGroup;
 			children = (
-				7087D2DB2A302DF700AC1EE6 /* Core */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		7087D2DB2A302DF700AC1EE6 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				7087D2DC2A302E3A00AC1EE6 /* ApiManager.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		7087D2DE2A3047A200AC1EE6 /* GoldPrice */ = {
-			isa = PBXGroup;
-			children = (
-				7087D3082A3172D900AC1EE6 /* MarketDetail */,
+				3E0579A82A3DA00C00C7E47D /* Model */,
+				3E0579A52A3DA00C00C7E47D /* Service */,
+				7087D3082A3172D900AC1EE6 /* GoldPriceDetailPage */,
 				7087D3032A315D0E00AC1EE6 /* Cell */,
-				7087D2DF2A3047C200AC1EE6 /* MarketViewController.swift */,
-				7087D2E02A3047C200AC1EE6 /* MarketViewController.xib */,
-				7087D3012A30818600AC1EE6 /* MarketViewModel.swift */,
+				7087D2DF2A3047C200AC1EE6 /* GoldPriceController.swift */,
+				7087D2E02A3047C200AC1EE6 /* GoldPriceController.xib */,
+				7087D3012A30818600AC1EE6 /* GoldPriceViewModel.swift */,
 			);
-			path = GoldPrice;
+			path = GoldPricePageTab;
 			sourceTree = "<group>";
 		};
-		7087D2E32A30480D00AC1EE6 /* Chart */ = {
+		7087D2E32A30480D00AC1EE6 /* ChartPageTab */ = {
 			isa = PBXGroup;
 			children = (
 				7087D2E42A30482E00AC1EE6 /* ChartViewController.swift */,
 				7087D2E52A30482E00AC1EE6 /* ChartViewController.xib */,
 			);
-			path = Chart;
+			path = ChartPageTab;
 			sourceTree = "<group>";
 		};
-		7087D2E82A3048C500AC1EE6 /* Account */ = {
+		7087D2E82A3048C500AC1EE6 /* AccountTab */ = {
 			isa = PBXGroup;
 			children = (
 				7087D2E92A3048E700AC1EE6 /* AccountViewController.swift */,
 				7087D2EA2A3048E700AC1EE6 /* AccountViewController.xib */,
 			);
-			path = Account;
+			path = AccountTab;
 			sourceTree = "<group>";
 		};
-		7087D2ED2A3049C200AC1EE6 /* Utils */ = {
+		7087D2ED2A3049C200AC1EE6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				7087D2D72A302C8700AC1EE6 /* Service */,
 				7087D2F12A304A3F00AC1EE6 /* Constant */,
 				7087D2F02A304A2A00AC1EE6 /* Extensions */,
 			);
-			path = Utils;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		7087D2F02A304A2A00AC1EE6 /* Extensions */ = {
@@ -314,36 +339,36 @@
 		7087D2F12A304A3F00AC1EE6 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				7087D2EE2A3049DA00AC1EE6 /* Color.swift */,
+				7087D2EE2A3049DA00AC1EE6 /* ThemeColor.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
 		};
-		7087D2F42A3053D600AC1EE6 /* CustomNavigation */ = {
+		7087D2F42A3053D600AC1EE6 /* XATNavigationView */ = {
 			isa = PBXGroup;
 			children = (
-				7087D2FD2A30573600AC1EE6 /* CustomNavigationView.swift */,
-				7087D2F52A3055A700AC1EE6 /* CustomNavigationView.xib */,
+				7087D2FD2A30573600AC1EE6 /* XATNavigationView.swift */,
+				7087D2F52A3055A700AC1EE6 /* XATNavigationView.xib */,
 			);
-			path = CustomNavigation;
+			path = XATNavigationView;
 			sourceTree = "<group>";
 		};
 		7087D3032A315D0E00AC1EE6 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				7087D3042A315D2B00AC1EE6 /* MarketTableViewCell.swift */,
-				7087D3052A315D2B00AC1EE6 /* MarketTableViewCell.xib */,
+				7087D3042A315D2B00AC1EE6 /* GoldPriceTableViewCell.swift */,
+				7087D3052A315D2B00AC1EE6 /* GoldPriceTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		7087D3082A3172D900AC1EE6 /* MarketDetail */ = {
+		7087D3082A3172D900AC1EE6 /* GoldPriceDetailPage */ = {
 			isa = PBXGroup;
 			children = (
-				7087D3092A31741000AC1EE6 /* MarketDetailViewController.swift */,
-				7087D30A2A31741000AC1EE6 /* MarketDetailViewController.xib */,
+				7087D3092A31741000AC1EE6 /* GoldPriceDetailViewController.swift */,
+				7087D30A2A31741000AC1EE6 /* GoldPriceDetailViewController.xib */,
 			);
-			path = MarketDetail;
+			path = GoldPriceDetailPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,15 +475,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7087D2F72A3055A700AC1EE6 /* CustomNavigationView.xib in Resources */,
+				7087D2F72A3055A700AC1EE6 /* XATNavigationView.xib in Resources */,
 				7087D29F2A2D937600AC1EE6 /* LaunchScreen.storyboard in Resources */,
-				7087D30C2A31741000AC1EE6 /* MarketDetailViewController.xib in Resources */,
+				7087D30C2A31741000AC1EE6 /* GoldPriceDetailViewController.xib in Resources */,
 				7087D2C62A2D93A000AC1EE6 /* ExchangeRateViewController.xib in Resources */,
 				7087D2E72A30482E00AC1EE6 /* ChartViewController.xib in Resources */,
-				7087D2E22A3047C200AC1EE6 /* MarketViewController.xib in Resources */,
+				7087D2E22A3047C200AC1EE6 /* GoldPriceController.xib in Resources */,
 				7087D29C2A2D937600AC1EE6 /* Assets.xcassets in Resources */,
 				7087D29A2A2D937400AC1EE6 /* Main.storyboard in Resources */,
-				7087D3072A315D2B00AC1EE6 /* MarketTableViewCell.xib in Resources */,
+				7087D3072A315D2B00AC1EE6 /* GoldPriceTableViewCell.xib in Resources */,
 				7087D2EC2A3048E700AC1EE6 /* AccountViewController.xib in Resources */,
 				7087D2CD2A2D942C00AC1EE6 /* ExchangeRateTableViewCell.xib in Resources */,
 			);
@@ -487,22 +512,25 @@
 			files = (
 				7087D2972A2D937400AC1EE6 /* ViewController.swift in Sources */,
 				7087D2F32A304A5600AC1EE6 /* UIColor.swift in Sources */,
-				7087D3022A30818600AC1EE6 /* MarketViewModel.swift in Sources */,
+				3E0579AD2A3DA00C00C7E47D /* GoldPriceService.swift in Sources */,
+				3E0579B32A3DA1C000C7E47D /* XATTabBarController.swift in Sources */,
+				7087D3022A30818600AC1EE6 /* GoldPriceViewModel.swift in Sources */,
 				7087D2D32A2D94DC00AC1EE6 /* ExchangeRateViewModel.swift in Sources */,
+				3E0579B52A3DA4ED00C7E47D /* XMLDataServiceType.swift in Sources */,
 				7087D2EB2A3048E700AC1EE6 /* AccountViewController.swift in Sources */,
 				7087D2DD2A302E3A00AC1EE6 /* ApiManager.swift in Sources */,
-				7087D2EF2A3049DA00AC1EE6 /* Color.swift in Sources */,
-				7087D3062A315D2B00AC1EE6 /* MarketTableViewCell.swift in Sources */,
-				7087D3002A307D1800AC1EE6 /* GoldExchangeRate.swift in Sources */,
+				7087D2EF2A3049DA00AC1EE6 /* ThemeColor.swift in Sources */,
+				7087D3062A315D2B00AC1EE6 /* GoldPriceTableViewCell.swift in Sources */,
 				7087D2932A2D937400AC1EE6 /* AppDelegate.swift in Sources */,
-				7087D2E12A3047C200AC1EE6 /* MarketViewController.swift in Sources */,
-				7087D2D92A302CC000AC1EE6 /* ExchangeRatesService.swift in Sources */,
+				7087D2E12A3047C200AC1EE6 /* GoldPriceController.swift in Sources */,
 				708DE2052A32DBB5009C6D8C /* StringExtension.swift in Sources */,
-				7087D30B2A31741000AC1EE6 /* MarketDetailViewController.swift in Sources */,
+				3E0579AF2A3DA00C00C7E47D /* GoldExchangeRate.swift in Sources */,
+				7087D30B2A31741000AC1EE6 /* GoldPriceDetailViewController.swift in Sources */,
 				7087D2CC2A2D942C00AC1EE6 /* ExchangeRateTableViewCell.swift in Sources */,
 				7087D2C52A2D93A000AC1EE6 /* ExchangeRateViewController.swift in Sources */,
 				7087D2D12A2D944000AC1EE6 /* ExchangeRate.swift in Sources */,
-				7087D2FE2A30573600AC1EE6 /* CustomNavigationView.swift in Sources */,
+				3E0579A32A3D9FFE00C7E47D /* ExchangeRatesService.swift in Sources */,
+				7087D2FE2A30573600AC1EE6 /* XATNavigationView.swift in Sources */,
 				7087D2952A2D937400AC1EE6 /* SceneDelegate.swift in Sources */,
 				7087D2E62A30482E00AC1EE6 /* ChartViewController.swift in Sources */,
 			);
@@ -688,6 +716,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -715,6 +744,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
