@@ -7,6 +7,8 @@
 
 import Foundation
 
+// TODO: create ExchangeRateViewModelType
+
 class ExchangeRateViewModel {
     
     var exchangeRatesService = ExchangeRatesService()

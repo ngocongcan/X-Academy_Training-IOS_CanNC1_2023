@@ -169,6 +169,44 @@
 			path = TabbarViewController;
 			sourceTree = "<group>";
 		};
+		3E0579B62A3DDEB800C7E47D /* GoldPricePage */ = {
+			isa = PBXGroup;
+			children = (
+				7087D3012A30818600AC1EE6 /* GoldPriceViewModel.swift */,
+				3E0579B72A3DDED900C7E47D /* View */,
+			);
+			path = GoldPricePage;
+			sourceTree = "<group>";
+		};
+		3E0579B72A3DDED900C7E47D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7087D3032A315D0E00AC1EE6 /* Cell */,
+				7087D2DF2A3047C200AC1EE6 /* GoldPriceController.swift */,
+				7087D2E02A3047C200AC1EE6 /* GoldPriceController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E0579B82A3DDEE400C7E47D /* ExchangeRatePage */ = {
+			isa = PBXGroup;
+			children = (
+				3E0579B92A3DDEF000C7E47D /* View */,
+				7087D2D22A2D94DC00AC1EE6 /* ExchangeRateViewModel.swift */,
+			);
+			path = ExchangeRatePage;
+			sourceTree = "<group>";
+		};
+		3E0579B92A3DDEF000C7E47D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7087D2C82A2D942C00AC1EE6 /* Cell */,
+				7087D2C32A2D93A000AC1EE6 /* ExchangeRateViewController.swift */,
+				7087D2C42A2D93A000AC1EE6 /* ExchangeRateViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7087D2862A2D937400AC1EE6 = {
 			isa = PBXGroup;
 			children = (
@@ -232,10 +270,7 @@
 			children = (
 				3E0579A02A3D9FFE00C7E47D /* Service */,
 				7087D2CF2A2D944000AC1EE6 /* Model */,
-				7087D2C82A2D942C00AC1EE6 /* Cell */,
-				7087D2C32A2D93A000AC1EE6 /* ExchangeRateViewController.swift */,
-				7087D2C42A2D93A000AC1EE6 /* ExchangeRateViewController.xib */,
-				7087D2D22A2D94DC00AC1EE6 /* ExchangeRateViewModel.swift */,
+				3E0579B82A3DDEE400C7E47D /* ExchangeRatePage */,
 			);
 			path = ExchangeRateTab;
 			sourceTree = "<group>";
@@ -291,10 +326,7 @@
 				3E0579A82A3DA00C00C7E47D /* Model */,
 				3E0579A52A3DA00C00C7E47D /* Service */,
 				7087D3082A3172D900AC1EE6 /* GoldPriceDetailPage */,
-				7087D3032A315D0E00AC1EE6 /* Cell */,
-				7087D2DF2A3047C200AC1EE6 /* GoldPriceController.swift */,
-				7087D2E02A3047C200AC1EE6 /* GoldPriceController.xib */,
-				7087D3012A30818600AC1EE6 /* GoldPriceViewModel.swift */,
+				3E0579B62A3DDEB800C7E47D /* GoldPricePage */,
 			);
 			path = GoldPricePageTab;
 			sourceTree = "<group>";

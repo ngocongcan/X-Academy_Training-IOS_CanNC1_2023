@@ -7,6 +7,8 @@
 
 import Foundation
 
+// TODO: create GoldPriceViewModelType
+
 class GoldPriceViewModel {
     
     let goldPriceService = GoldPriceService()
